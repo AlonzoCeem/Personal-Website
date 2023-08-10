@@ -1,0 +1,1 @@
+console.log("I don't know very much JavaScript. I'm dying to know what the heck I can do with it. (╥﹏╥)");

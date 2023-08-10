@@ -1,0 +1,111 @@
+a {
+    color:inherit;
+    text-decoration:none;
+}
+body {
+    padding:0px;
+    margin:0px;
+    background-color:#EDF2F4;
+    color:#2E4057;
+}
+header, footer{
+    background-color:#083D77;
+    box-shadow:0px 7px 5px black;
+    margin-bottom:0px;
+    z-index:1;
+    position:relative;
+}
+header>ul {
+    list-style-type:none;
+    display:flex;
+    padding:0px;
+    margin:0px 0px 0px 10px;
+    font-family:cursive;
+    font-size:50px;
+    color:white;
+}
+header>ul>li {
+    margin:0px 30px 0px 30px
+}
+header>ul>li:hover {
+    font-size:52px;
+}
+#madeBy {
+    position:absolute;
+    right:0;
+    top:40px;
+    font-size:20px;
+}
+#selected {
+    text-decoration:underline;
+}
+@keyframes fadein {
+    0%{opacity: 0;}
+    25%{opacity:0.25;}
+    50%{opacity:0.5;}
+    75%{opacity:0.75;}
+    100%{opacity:1;}
+}
+section {
+    position:relative;
+    margin: 0px auto 0px auto;
+    padding-top:10px;
+    background-color:gainsboro;
+    width:50vw;
+    height:90vh;
+    z-index:-1;
+    text-align: center;
+}
+#quote {
+    font-family:Tahoma;
+    font-size:40px;
+    text-shadow:2px 2px black;
+    animation-name: fadein;
+    animation-duration: 2s;
+    text-align:center;
+    margin:0px;
+}
+footer {
+    width:100%;
+    margin:0px;
+    height:10vh;
+    position:fixed;
+    bottom:0;
+}
+footer>p {
+    margin:0px;
+}
+section>ul {
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+section>ul>li {
+    font-size: 40px;
+    margin: 40px 0px 0px 0px;
+}
+h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+dd {
+    margin:10px 5px 0px 5px;
+    font-size: 20px;;
+}
+article {
+    margin:0px auto 0px auto;
+    background-color:#EDF2F4;
+    width:40vw;
+    height:30vh;
+}
+hr {
+    color:black;
+    border-width: 5px;
+}
+article>img {
+    display:flexbox;
+    width:200px;
+}
+article>p {
+    margin: 0px 30px 0px 30px;
+}
